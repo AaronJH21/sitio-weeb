@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-image: linear-gradient(to left,rgb(255, 255, 255),rgba(120, 167, 243, 0.425));
+  height: 100vh;
+ }
+  body ol li a {
+    text-decoration: none; }
+
+.container {
+  background-color: rgba(0, 0, 255, 0);
+  font-family: serif; 
+  
+}
+  .container .row .col .cosasParaVer {
+    background-color: brown; }
+
+.row .carrucel {
+  width: 70%; }
+
+.container .row .col .Ofertas {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+
+.breadcrumb {
+  align-content: center; }
+  .breadcrumb .breadcrumb-item {
+    width: 20%; }
+    .breadcrumb .breadcrumb-item .breadcrumb-item .breadcrumb-item {
+      width: 20%; }
+
+      section{
+        height:100vh;
+        width: 100%;
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+       background-attachment: fixed;
+    }
+    .image-1 {
+      background-image: linear-gradient(to left,rgba(0, 0, 0, 0.938) ,rgba(65, 62, 62, 0.897));
+       }
+.margenContacto{
+  margin: 3%;
+}
+p{
+  font-size: 40px;
+}
+.col-6{align-self: center;}
+.col{
+  align-content: center;
+}
+.Letra{
+  text-decoration: none;
+  color: black;
+}
+tr{
+  text-align: center;
+  animation-duration: 2s;
+  animation-name: aparecer;
+}
+a{
+  text-decoration: none;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.card{
+  animation-duration: 2s;
+  animation-name: animate__heartBeat;
+
+}
+@keyframes animate__heartBeat {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

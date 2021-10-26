@@ -1,0 +1,57 @@
+$bg_claro:blue;
+$bg_negro:black;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{background-color: rgb(128, 232, 240);
+ol{
+    li{
+        a{
+            text-decoration: none;
+        }
+    }
+}
+}
+.container{
+    background-color: blue;
+    font-family: serif;
+    .row{
+        .col{
+            .cosasParaVer{background-color: brown;
+
+            }
+        }
+    }
+    
+}
+.row{
+    .carrucel{
+        width: 70%;
+    }
+}
+.container{
+    .row{
+        .col{
+            .Ofertas{
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+        }
+    }
+}
+.breadcrumb{
+    align-content: center;
+    .breadcrumb-item{width: 20%;
+        .breadcrumb-item{
+            .breadcrumb-item{
+                width: 20%;
+            }
+        }
+        
+    }
+    
+}
+
+ 
